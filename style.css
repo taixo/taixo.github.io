@@ -1,0 +1,114 @@
+:root {
+  --pink: #e26687;
+  --blue: #6181cc;
+  --background-color: #e3e3ef;
+  --letter-color: #4c4c4c;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: courier;
+  color: var(--letter-color);
+}
+
+#container {
+    margin: auto;
+    width: 700px;
+}
+.question {
+    margin-top: 100px;
+}
+
+.question h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.question p {
+    font-size: 17px;
+    line-height: 1.2;
+    word-spacing: 5px;
+    margin-top: 0;
+}
+
+.shortText {
+    width: 80%;
+}
+
+#slider {
+    border: 10px solid var(--blue);
+    height: 150px;
+    border-radius: 15px;
+}
+
+.slidecontainer {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: var(--blue);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--pink);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--pink);
+  cursor: pointer;
+}
+
+.button {
+  background-color: var(--pink);
+  border: none;
+  color: white;
+  padding: 15px 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: courier;
+  border-radius: 15px;
+}
+.button:hover{
+  cursor:pointer;
+}
+.button:focus { outline-style: none; }
+
+.buttoncontainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leftbound{
+    float: left;
+    margin-left: 30px;
+}
+.rightbound{
+    float: right;
+    margin-right: 30px;
+}
+
+.center {
+    text-align: center;
+}

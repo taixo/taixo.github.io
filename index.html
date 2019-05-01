@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Tekniska Museet</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="question">
+            <h1>Geneditering</h1>
+            <div class="shortText">
+                <p>
+                    Du har råd att köpa ett eget test för att analysera ditt DNA.
+                    Leverantören ger dig en beskrivning av ditt genom och en riskbedömning
+                    att du utvecklar svåra sjukdomar. Du har också möjlighet att editera ditt
+                    DNA för att inte föra defekta gener vidare. Vilket är det rätta etiska
+                    beslutet?
+                </p>
+            </div>
+        </div>
+        <div id="slider">
+            <div class="slidecontainer">
+                <div class="leftbound">
+                    <p>
+                        helt emot
+                    </p>
+                </div>
+                <div class="rightbound">
+                    <p>
+                        helt för
+                    </p>
+                </div>
+                <div class="center">
+                    <input type="range" id="myRange" min="0" max="100" value="50" class="slider">
+                </div>
+            </div>
+        </div>
+        <div class="buttoncontainer">
+            <button type="button" class="button" id="button">klar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
