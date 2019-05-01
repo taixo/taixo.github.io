@@ -7,14 +7,13 @@ html, body{
 }
 
 .container {
-  background-image: url(./resources/future.jpg) ;
+  background-image: url(./resources/polis.jpg) ;
   height:100%;
   width: 100%;
   text-align: center;
 }
 h1 {
     margin: 0;
-    padding-top:200px;
     font-family: courier;
 }
 .button {
@@ -25,7 +24,14 @@ h1 {
   background-color: white;
   font-weight: bold;
   opacity: 10%;
+  margin-top: 300px;
 }
 .button:hover{
   cursor:pointer;
+}
+.box {
+  background: black;
+}
+.margin{
+  padding-top:200px;
 }
